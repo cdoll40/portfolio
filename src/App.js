@@ -1,3 +1,7 @@
+/*
+    Render content in second part of main box based on button clicked
+*/
+
 import './App.css';
 import * as React from 'react';
 import PropTypes from 'prop-types';
