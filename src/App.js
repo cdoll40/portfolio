@@ -1,5 +1,6 @@
 /*
     Render content in second part of main box based on button clicked
+    Get Icons for buttons and tab
 */
 
 import './App.css';
