@@ -1,10 +1,14 @@
+/*
+    fix styling
+*/
+
 import React from 'react'
 import SignUp from '../assets/projects/SignUp.PNG'
 import ManagerHome from '../assets/projects/ManagerHome.PNG'
 import SignIn from '../assets/projects/SignIn.PNG'
-import Update from '../assets/projects/Update.PNG'
-import AssociateHome from '../assets/projects/AssociateHome.PNG'
-import Image from '../assets/projects/Image.PNG'
+// import Update from '../assets/projects/Update.PNG'
+// import AssociateHome from '../assets/projects/AssociateHome.PNG'
+// import Image from '../assets/projects/Image.PNG'
 
 const Projects = () => {
 
