@@ -1,5 +1,7 @@
 /*
-    
+    Finish styling the projects
+    Add getform.io to contact section
+    Add correct social links and resume
 */
 import About from './components/About';
 import Contact from './components/Contact';
