@@ -3,6 +3,7 @@
 */
 
 import React from 'react'
+import { Link } from 'react-router-dom';
 import ManagerHome from '../assets/projects/ManagerHome.PNG'
 import Jesco from '../assets/projects/Jesco.png'
 import Portfolio from '../assets/projects/Portfolio.PNG'
@@ -12,21 +13,24 @@ const Projects = () => {
 
     const projects = [
         {
-          id: 1,
-          src: ManagerHome,
-          desc: 'Inventory Management System (Full Stack web app made with react, node, mysql)'
+            id: 1,
+            src: ManagerHome,
+            desc: 'Inventory Management System (Full Stack web app made with react, node, mysql)',
+            link: 'https://github.com/cdoll40/Inventory-Management-System'
         },
         {
             id: 2,
             src: Jesco,
-            desc: 'Commercial flooring showcase site (MERN stack web app, styled using MaterialUI)'
+            desc: 'Commercial flooring showcase site (MERN stack web app, styled using MaterialUI)',
+            link: 'https://github.com/cdoll40/Jesco'
         },
         {
             id: 3,
             src: Portfolio,
-            desc: 'Personal portfolio (Front End web app made with react and styled with tailwind)'
+            desc: 'Personal portfolio (Front End web app made with react and styled with tailwind)',
+            link: 'https://github.com/cdoll40/portfolio'
         },
-      ];
+    ];
 
   return (
     <div
@@ -42,7 +46,7 @@ const Projects = () => {
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-            {projects.map(({ id, src, desc }) => (
+            {projects.map(({ id, src, desc, link }) => (
             <div 
                 key={id} 
                 className="shadow-md shadow-gray-600 rounded-lg p-2 "
@@ -58,9 +62,11 @@ const Projects = () => {
                     {desc}
                 </p>
                 <div className="flex items-center justify-center">
-                    <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                        Code
-                    </button>
+                    <Link to={link} target="_blank" rel="noopener noreferrer">
+                        <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+                            Code
+                        </button>
+                    </Link>
                 </div>
             </div>
             ))}
