@@ -3,31 +3,29 @@
 */
 
 import React from 'react'
-import SignUp from '../assets/projects/SignUp.PNG'
 import ManagerHome from '../assets/projects/ManagerHome.PNG'
-import SignIn from '../assets/projects/SignIn.PNG'
-// import Update from '../assets/projects/Update.PNG'
-// import AssociateHome from '../assets/projects/AssociateHome.PNG'
-// import Image from '../assets/projects/Image.PNG'
+import Jesco from '../assets/projects/Jesco.png'
+import Portfolio from '../assets/projects/Portfolio.PNG'
+
 
 const Projects = () => {
 
     const projects = [
         {
           id: 1,
-          src: SignUp,
-          desc: 'Inventory Management System (Full Stack web app made with react, node, mysql)'
-        },
-        {
-          id: 2,
-          src: SignIn,
-          desc: 'Inventory Management System (Full Stack web app made with react, node, mysql)'
-        },
-        {
-          id: 3,
           src: ManagerHome,
           desc: 'Inventory Management System (Full Stack web app made with react, node, mysql)'
-        }
+        },
+        {
+            id: 2,
+            src: Jesco,
+            desc: 'Commercial flooring showcase site (MERN stack web app, styled using MaterialUI)'
+        },
+        {
+            id: 3,
+            src: Portfolio,
+            desc: 'Personal portfolio (Front End web app made with react and styled with tailwind)'
+        },
       ];
 
   return (
@@ -60,9 +58,6 @@ const Projects = () => {
                     {desc}
                 </p>
                 <div className="flex items-center justify-center">
-                    <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                        Demo
-                    </button>
                     <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
                         Code
                     </button>

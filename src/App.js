@@ -2,6 +2,14 @@
     Finish styling the projects
     Add getform.io to contact section
     Add correct social links and resume
+    Correct the icons in experience
+    Correct Projects section
+    Add resume
+    clean node_modules / dependencies
+    clean packages
+    change tab image and name
+    Read me
+    fill out lorem sections
 */
 import About from './components/About';
 import Contact from './components/Contact';

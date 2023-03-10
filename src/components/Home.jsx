@@ -9,10 +9,10 @@ const Home = () => {
         <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
             <div className="flex flex-col justify-center h-full">
                 <h2 className="text-4xl sm:text-7xl font-bold text-white">
-                    I'm a Web Developer
+                    Hi, I'm a Web Developer
                 </h2>
                 <p className='text-yellow-100 py-4 max-w-md'>
-                    Lorem ipsum dolor sit met consectetur adipisicing elit. Ea quia ipsam voluptates error pariatur repellat temporibus minus magni inventore, impedit recusandae debitis, corrupti consequuntur autem, consequatur eligendi vel voluptatum quibusdam.
+                    I am a recent graduate with an interest in developing web applications. I have experience working with the front end and back end of web applications. Currently I am most familiar with technologies such as React, Nodejs, and Tailwind.
                 </p>
                 <div>
                     <Link 

@@ -14,7 +14,7 @@ const Contact = () => {
             <div className='flex justify-center items-center'>
                 <form 
                     action=''
-                    className='flex flex-col w-full md:w-1/2'
+                    className='flex flex-col w-full md:w-3/4'
                 >
                     <input 
                         type="text"
