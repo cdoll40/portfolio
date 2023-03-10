@@ -11,8 +11,8 @@ const Home = () => {
                 <h2 className="text-4xl sm:text-7xl font-bold text-white">
                     Hi, I'm a Web Developer
                 </h2>
-                <p className='text-yellow-100 py-4 max-w-md'>
-                    I am a recent graduate with an interest in developing web applications. I have experience working with the front end and back end of web applications. Currently I am most familiar with technologies such as React, Nodejs, and Tailwind.
+                <p className='text-white py-4 max-w-md'>
+                    I am a recent computer science graduate with an interest in developing web applications. I have experience working with the front end and back end of web applications. Currently I am most familiar with technologies such as React, Nodejs, and Tailwind.
                 </p>
                 <div>
                     <Link 

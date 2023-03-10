@@ -49,7 +49,7 @@ const Projects = () => {
             {projects.map(({ id, src, desc, link }) => (
             <div 
                 key={id} 
-                className="shadow-md shadow-gray-600 rounded-lg p-2 "
+                className="shadow-md shadow-yellow-300 rounded-lg p-2 "
             >
                 <img
                     src={src}
