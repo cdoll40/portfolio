@@ -1,4 +1,5 @@
 import React from 'react'
+import {FaLinkedin} from 'react-icons/fa'
 
 const Contact = () => {
   return (
@@ -8,7 +9,12 @@ const Contact = () => {
                 <p className='text-4xl font-bold inline border-b-4 border-yellow-300'>
                     Contact
                 </p>
-                <p className='py-6'>Complete the form below to contact me directly.</p>
+                <p className='py-6'>
+                    <a href='https://www.linkedin.com/in/cody-doll-964213255/'><FaLinkedin size={40} /></a>
+                    My Email: cdoll831@gmail.com <br />
+                    
+                    Or complete the form below to contact me directly.
+                </p>
             </div>
 
             <div className='flex justify-center items-center'>
