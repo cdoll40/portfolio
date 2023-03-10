@@ -13,7 +13,7 @@ const SocialLinks = () => {
                     LinkedIn <FaLinkedin size={30} />
                 </>
             ),
-            href: 'https://linkedin.com',
+            href: 'https://www.linkedin.com/in/cody-doll-964213255/',
             style: 'rounded-tr-md'
         },
         {
@@ -32,7 +32,7 @@ const SocialLinks = () => {
                     Mail <HiOutlineMail size={30} />
                 </>
             ),
-            href: 'mailto: foo@gmail.com',
+            href: 'mailto: cdoll831@gmail.com',
         },
         {
             id: 4,
@@ -57,7 +57,8 @@ const SocialLinks = () => {
                  href={href}
                  className='flex justify-between items-center w-full text-white'
                  download={download}
-                 rel="noreferrer"
+                 target='_blank'
+                 rel="noopener noreferrer"
                 >
                     {child}
                 </a>
